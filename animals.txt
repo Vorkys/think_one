@@ -1,1 +1,14 @@
-
+zvíře, barva, počet končetin, ocas, velikost, speciální vlastnost
+kočka, černé bílé oranžové šedé žluté, 4, ano, menší, drápy
+pes, bílé černé šedé, 4, ano, menší, že je čestný
+myš, šedé, 4, ano, menší
+slon, šedé, 4, ano, větší, chobot, 2 kly
+had, zelené modré oranžové žluté černé, 0, ano, menší, že leze
+zebra, bílé černé, 4, ano, větší, že je pruhovaný
+tygr, oranžové černé, 4, ano, větší, drápy, že je pruhovaný
+chameleon, zelené fialové oranžové žluté modré, 4, ano, menší, schopnost měnit barvu
+žirafa, žluté hnědé oranžové, 4, ano, větší, dlouhý krk
+motýl, fialové, 6, ne, menší, že létá
+panda, bílé černé, 4, ano, větší, že je roztomilé
+králík, černé bílé žluté šedé, 4, ano, menší, skákavost
+pavouk, hnědé černé žluté, 8, ne, menší, pavučiny
