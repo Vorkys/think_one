@@ -28,7 +28,7 @@ class Animal():
                 
         cls._instances -= dead
         
-i = 1
+i = 0
 
 with open("animals.txt", "r", encoding = "utf-8") as data:
     for _line in data:
@@ -39,13 +39,13 @@ with open("animals.txt", "r", encoding = "utf-8") as data:
         i += 1
 
 #only testing data below
-print(30*"#")
+print(30 * "#")
 animal3.whatis()
 animal4.whatis()            #print test zvirata
 animal5.whatis()
-print(30*"#")
+print(30 * "#")
 
-del animal1                                    #smaze instanci ktera je: zvire, barva,...
+del animal0                                    #smaze instanci ktera je: zvire, barva,...
 
 for object in Animal.getInstances():            #printne jmena vsech instanci
     print(object.name)                          #ale ne v poradi => wtf
