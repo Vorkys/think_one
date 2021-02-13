@@ -58,8 +58,13 @@ with open("animals.txt", "r", encoding = "utf-8") as _file:
         radek = line.split(", ")                #udela z radku list ktery rozdeli
         exec("animal" + str(i) + " = Animal(radek[0], radek[1], radek[2], radek[3], radek[4], radek[5:])")
         i += 1
-        print(radek)
+        
+        print(radek[0])
+        #print(radek)
 
+        
+print(30 * "#")
+        
 #animal3.whatis()                               #printne danne zvire
 #animal5.whatis()
 del animal1                                    #smaze instanci ktera je: zvire, barva,...
