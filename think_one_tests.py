@@ -40,6 +40,7 @@ class Animal():
 
 #print(animal4)
 ######################################
+
 i = 1
 
 with open("animals.txt", "r", encoding = "utf-8") as _file:
@@ -71,3 +72,5 @@ del animal1                                    #smaze instanci ktera je: zvire, 
 
 for object in Animal.getInstances():            #printne jmena vsech instanci
     print(object.name)                          #ale ne v poradi => wtf
+
+input()
