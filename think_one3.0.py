@@ -1,9 +1,7 @@
 import weakref
 
 class Animal():
-    
-    _instances = set()
-    
+
     def __init__(self, name, color, leg_num, tail, size, spec):     #konstruktor
         self.name = name
         self.color = color
