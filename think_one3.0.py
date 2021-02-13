@@ -62,11 +62,12 @@ with open("animals.txt", "r", encoding = "utf-8") as _file:
         print(radek[0])
         #print(radek)
 
-        
-print(30 * "#")
-        
-#animal3.whatis()                               #printne danne zvire
-#animal5.whatis()
+print(30*"#")
+animal3.whatis()
+animal4.whatis()            #print test zvirata
+animal5.whatis()
+print(30*"#")
+
 del animal1                                    #smaze instanci ktera je: zvire, barva,...
 
 for object in Animal.getInstances():            #printne jmena vsech instanci
