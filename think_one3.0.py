@@ -41,3 +41,4 @@ with open("animals.txt", "r", encoding = "utf-8") as _file:
         print(radek)
 
 animal3.whatis()
+animal1.whatis()
