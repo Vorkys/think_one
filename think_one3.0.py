@@ -4,7 +4,7 @@ class Animal():
 
     _instances = set()                  #dunno
 
-    def __init__(self, name, color, leg_num, tail, size, spec):
+    def __init__(self, name, color, leg_num, tail, size, spec):     #konstruktor
         self.name = name
         self.color = color
         self.leg_num = leg_num
@@ -20,7 +20,7 @@ class Animal():
 
 
     @classmethod                        #tohle prej neco dela
-    def getInstances(cls):
+    def getInstances(cls):                  #tohle taky
         dead = set()
         for ref in cls._instances:
             object = ref()
@@ -54,13 +54,15 @@ with open("animals.txt", "r", encoding = "utf-8") as _file:
 #        break
 
     for line in _file:                          #vytvori instance
-        line = line.strip()
-        radek = line.split(", ")
+        line = line.strip()                     #vynda \n
+        radek = line.split(", ")                #udela z radku list ktery rozdeli
         exec("animal" + str(i) + " = Animal(radek[0], radek[1], radek[2], radek[3], radek[4], radek[5:])")
         i += 1
         print(radek)
 
-#animal3.whatis()
+#animal3.whatis()                               #printne danne zvire
 #animal5.whatis()
+del animal1                                    #smaze instanci ktera je: zvire, barva,...
+
 for object in Animal.getInstances():            #printne jmena vsech instanci
     print(object.name)                          #ale ne v poradi => wtf
