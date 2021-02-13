@@ -40,7 +40,6 @@ class Animal():
 
 #print(animal4)
 ######################################
-
 i = 1
 
 with open("animals.txt", "r", encoding = "utf-8") as _file:
