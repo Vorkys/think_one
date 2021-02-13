@@ -40,9 +40,9 @@ with open("animals.txt", "r", encoding = "utf-8") as data:
 
 #only testing data below
 print(30 * "#")
-animal3.whatis()
-animal4.whatis()            #print test zvirata
-animal5.whatis()
+animal2.whatis()
+animal3.whatis()            #print test zvirata
+animal4.whatis()
 print(30 * "#")
 
 del animal0                                    #smaze instanci ktera je: zvire, barva,...
