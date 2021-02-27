@@ -1,5 +1,7 @@
 import weakref
 
+
+nazvyZvirat = []
 class Animal():
 
     _instances = set()                  #dunno
@@ -11,6 +13,7 @@ class Animal():
         self.tail = tail
         self.size = size
         self.spec = spec
+        nazvyZvirat.append(self.name)
 
         self._instances.add(weakref.ref(self))
 
